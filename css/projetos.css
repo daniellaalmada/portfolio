@@ -1,0 +1,140 @@
+@media screen and (min-width: 300px) {
+    .container, .sobre, .redes, .projetos__container, .rodape, .secao__habilidades, .habilidades__container {
+        width: auto;
+    }
+
+    .projeto__imagem {
+        width: 160px;
+        box-shadow: 5px 5px 5px var(--preto-principal);
+    }
+
+    .projetos__container {
+        display: grid;
+        grid-template-columns: 49fr 49fr;
+        margin: 20px;
+        justify-content: center;
+    } 
+
+    .projetos {
+        text-align: center;
+        margin: 10px 5px;
+    }
+
+    .projetos__titulo-principal {
+        color: var(--branco-principal);
+        font-size: 25px;
+        text-align: center;
+        font-weight: 500;
+    }
+
+    .projetos__nome {
+        margin-top: 10px;
+        color: var(--branco-principal);
+        font-weight: 500;
+        font-size: 20px;
+    }
+
+    .projeto__descricao {
+        color: var(--branco-principal);
+        font-size: 13px;
+    }
+
+    .veja-mais {
+        color: var(--cinza-claro);
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+        margin: 0 0 100px 0;
+    }
+
+    .veja-mais__link {
+        color: var(--branco-principal);
+    }
+
+    .veja-mais__link:active {
+        color: var(--azul-escuro);
+    }
+}
+
+@media screen and (min-width: 400px) {
+    .projeto__imagem {
+        width: 180px;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .projeto__imagem {
+        width: 300px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .container, .sobre, .redes, .projetos__container, .rodape, .secao__habilidades, .habilidades__container {
+        width: auto;
+    }
+
+    /* .projetos {
+        margin: 10px 10px 40px 10px;
+    } */
+
+    
+
+    .projetos__container {
+        grid-template-columns: 20fr 20fr;
+    }
+   
+    .projeto__imagem {
+        width: 350px;
+    }
+
+    .projetos__titulo-principal {
+        margin: 20px 0;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .projetos__link:hover {
+        opacity: 0.5;
+        transition: 0.5s;
+    }
+
+    .projetos__nome {
+        font-weight: 700;
+    }
+
+    
+
+    /*
+    .projeto__descricao {
+        display: none;
+    }
+    .projetos__link:hover ~ .projeto__descricao {
+        display: block;
+        justify-content: flex-start;
+        color: var(--branco-principal);
+    } */
+
+    .veja-mais__link {
+        text-decoration: none;
+    }
+
+    .veja-mais__link:hover {
+        color: var(--azul);
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .projeto__imagem {
+        width: 320px;
+    }
+
+    .projetos__container {
+        grid-template-columns: 20fr 20fr 20fr;
+    }
+
+    .veja-mais {
+        margin-top: 50px;
+    }
+
+}
+

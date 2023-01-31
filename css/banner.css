@@ -1,0 +1,104 @@
+@media screen and (min-width: 300px) {
+    .container, .sobre, .redes, .projetos__container, .rodape, .secao__habilidades, .habilidades__container {
+        width: auto;
+    }
+
+    .sobre {
+        display: grid; 
+        justify-content: center;
+        margin: 60px 0 20px 0;
+        padding: 20px;
+    }
+
+    .daniella__foto {
+        width: 150px;
+        margin: auto;
+        box-shadow: 10px 10px 10px var(--preto-principal);
+        border-radius: 5px;
+    }
+
+    .sobre__titulo {
+        margin: 20px 0 20px 0;
+        font-size: 30px;
+        text-align: center;
+        font-weight: 700;
+        color: var(--cinza-principal);
+    }
+
+    .sobre__texto {
+        margin: auto;
+        font-size: 14px;
+        line-height: 20px;
+        color: var(--branco-principal);
+        text-align: justify;
+        text-indent: 20px;
+        line-height: 25px;
+    }
+
+    .redes {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .redes__icone {
+        text-align: center;
+        margin: 0 10px 50px 10px;
+        width: 55px;
+    }
+    
+    .redes__link:hover {
+        opacity: 0.7;
+        transition: 0.2s;
+    }
+}   
+
+@media screen and (min-width: 700px) {
+    .container, .sobre, .redes, .projetos__container, .rodape, .secao__habilidades, .habilidades__container {
+        width: auto;
+    }
+
+    .daniella__foto {
+        width: 250px;
+        margin-right: 30px;
+        
+    }
+
+    .sobre {
+        display: flex;
+        padding: 20px;
+        align-items: center;
+        margin-top: 80px;
+    }
+
+    .sobre__titulo {
+        color: var(--cinza-principal);
+        font-weight: 700;
+        font-size: 45px;
+        margin-bottom: 35px;
+    }
+
+    .sobre__texto {
+        color: var(--branco-principal);
+        font-weight: 500;
+        text-align: justify;
+        text-indent: 20px;
+        line-height: 25px;
+        margin-left: 20px;
+        font-size: 18px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .sobre {
+        padding: 80px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .sobre__titulo {
+        text-indent: 20px;
+        text-align: left;
+    }
+
+    
+}

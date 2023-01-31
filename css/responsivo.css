@@ -1,0 +1,34 @@
+@media screen and (min-width: 300px) {
+    .container, .sobre, .redes, .projetos__container, .rodape, .secao__habilidades, .habilidades__container {
+        width: auto;
+    }
+
+    /* header */
+    
+    /* banner */
+    
+    /* projetos */
+    
+
+    /* rodapé */
+
+    /* seção sobre */
+    
+
+    
+
+     
+    
+}
+
+
+
+@media screen and (min-width: 700px) {
+    .container, .sobre, .redes, .projetos__container, .rodape, .secao__habilidades, .habilidades__container {
+        width: auto;
+    }
+
+    
+    /* banner */
+    
+}

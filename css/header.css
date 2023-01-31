@@ -1,0 +1,102 @@
+@media screen and (min-width: 300px) {
+    .container, .sobre, .redes, .projetos__container, .rodape, .secao__habilidades, .habilidades__container {
+        width: auto;
+    }
+
+    .container {
+        background-color: var(--preto-principal);
+        padding: 10px 0;
+        margin: 0 auto;
+        display: grid;
+        justify-content: center;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .daniella__nome a {
+        text-decoration: none;
+        color: var(--branco-principal);
+        font-weight: 700;
+        font-size: 20px;
+
+    }
+
+    .daniella__nome {
+        margin-bottom: 10px;
+    }
+
+    .menu {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .lista-menu__link  {
+        text-align: center;
+        text-decoration: none;
+        font-size: 15px;
+        margin: 10px;
+        border: 2px solid var(--cinza-secundario);
+        border-radius: 15px;
+        padding: 5px 20px;
+        font-weight: 500;
+        color: var(--branco-principal);
+    }
+
+    .lista-menu__link:active {
+        color: var(--azul-escuro);
+        transition: 0.1s;
+    }
+
+    .lista-menu__link::before  {
+        color: var(--cinza-secundario);
+        font-weight: 700;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .container, .sobre, .redes, .projetos__container, .rodape, .secao__habilidades, .habilidades__container {
+        width: auto;
+    }
+
+
+    .container {
+        display: flex;
+        padding: 25px 60px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .daniella__nome a {
+        font-size: 25px;
+        align-items: center;
+    }
+
+    .daniella__nome {
+        margin-bottom: 0;
+    }
+
+    .lista-menu__link {
+        font-size: 20px;
+        margin: 0 0 0 25px;
+        border: none;
+        padding: 0;
+        
+    }
+
+    .lista-menu__link:hover {
+        color: var(--azul);
+        transition: 0.2s;
+    }
+
+}
+
+@media screen and (min-width: 1000) {
+    
+
+}

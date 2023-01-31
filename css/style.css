@@ -1,0 +1,30 @@
+@import url(../css/header.css);
+@import url(../css/sobre.css);
+@import url(../css/projetos.css);
+@import url(../css/banner.css);
+@import url(../css/rodape.css);
+@import url(../css/responsivo.css);
+
+:root {
+    --preto-principal: #000000;
+    --branco-principal: #FFFFFF; 
+    --cinza-principal: #272727;
+    --cinza-secundario: #444444;
+    --cinza-claro: #9c9c9c;
+    --azul: #008cff;
+    --azul-escuro: #002ca7;
+    --fonte-principal: Lora; 
+ }
+
+body {
+    background-image: linear-gradient(to bottom, var(--cinza-claro),var(--cinza-secundario), var(--cinza-principal), var(--preto-principal));
+    background-repeat: no-repeat;
+    font-family: var(--fonte-principal);
+    line-height: 20px;
+}
+
+hr {
+    border-width: 0.1px;
+    border-color: var(--cinza-claro);
+    color: var(--cinza-claro);
+}

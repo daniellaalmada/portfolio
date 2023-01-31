@@ -1,0 +1,47 @@
+@media screen and (min-width: 300px) {
+    .container, .sobre, .redes, .projetos__container, .rodape, .secao__habilidades, .habilidades__container {
+        width: auto;
+    }
+
+    .rodape {
+        background-color: var(--preto-principal);
+        padding: 30px;
+    }
+
+    .rodape__direitos {
+        color: var(--branco-principal);
+        font-size: 12px;
+        font-weight: 100;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .rodape__contato {
+        color: var(--branco-principal);
+        font-size: 18px;
+        font-weight: 100;
+        text-align: center;
+    }
+
+    .rodape__contato-link {
+        text-decoration: none;
+        color: var(--cinza-claro);
+    }
+    
+    .rodape__contato-link:active {
+        color: var(--azul-escuro);
+        transition: 0.5s;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+    .container, .sobre, .redes, .projetos__container, .rodape, .secao__habilidades, .habilidades__container {
+        width: auto;
+    }
+
+    .rodape__contato-link:hover {
+        color: var(--azul);
+        transition: 0.5s;
+    }
+}
